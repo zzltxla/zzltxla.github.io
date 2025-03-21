@@ -12,7 +12,7 @@ jobs:
         run: actions/checkout@v4
       - name: Running ls
         run: ls -al
-      - name: Set up Node
+      - name: Set up NodeJS
           uses: actions/setup-node@v4
           with:
             node-version: 20
